@@ -7,6 +7,7 @@ function Letter() {
 
     const navigate = useNavigate();
     const handleClick = () => {
+        console.log("working");
         navigate("/end")
     }
   return (
@@ -27,7 +28,7 @@ function Letter() {
           className="giphy-embed"
           allowFullScreen
         ></iframe>
-        <p className="font-bold">click the heart babe</p>
+        <p className="font-bold" >click the heart babe</p>
         <a className="open-modal flex justify-center" href="#open-modal">
           <svg className="heart btn " viewBox="0 0 32 29.6">
             <path
@@ -70,7 +71,7 @@ function Letter() {
           </div>
             <div className="flex flex-col items-end">
                 <p  className="  px-3 py-2">click the heart babe</p>
-                <img src={heart} alt=""  onClick={handleClick} className="w-20 h-20 cursor-pointer"  />
+                <img src={heart} alt="" onClick={handleClick} className="w-20 h-20 cursor-pointer"  />
             </div>
         </div>
       </div>
