@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full flex justify-center">
-      <button className="text-white font-bold text-2xl p-1 px-4 cursor-pointer border bg-emerald-400 rounded-2xl" onClick={handleClick}>Click here babe!</button>
+      <button className="flex text-white font-bold text-2xl p-1 px-4 cursor-pointer border bg-emerald-400 rounded-2xl" onClick={handleClick}>Click here babe <p className="pt-1 pl-1 text-red-600"><FaHeart className="" /></p></button>
       </div>
     </div>
   );
