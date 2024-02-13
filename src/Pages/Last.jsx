@@ -8,6 +8,7 @@ const Last = () => {
   const navigate = useNavigate();
     const handleClick = () => {
         navigate("/")
+        
     }
     return (
         <div className="allcard">
