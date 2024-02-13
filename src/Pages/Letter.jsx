@@ -67,7 +67,7 @@ function Letter() {
             <p>sincerely yours</p>
           </div>
           <div>
-            <p>PJ</p>
+            <p>Niki...</p>
           </div>
             <div className="flex flex-col items-end">
                 <p  className="  px-3 py-2">click the heart babe</p>
