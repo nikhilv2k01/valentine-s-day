@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./css/last.css"
-import img1 from "../images/img2.jpg"
+import img1 from "../images/img5.jpg"
 import img2 from "../images/img1.jpg"
 import { FaHeart } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
